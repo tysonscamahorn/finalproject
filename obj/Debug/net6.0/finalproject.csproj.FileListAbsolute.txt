@@ -1,0 +1,15 @@
+C:\Users\tyson\my-code-dir\finalproject\obj\Debug\net6.0\finalproject.csproj.AssemblyReference.cache
+C:\Users\tyson\my-code-dir\finalproject\obj\Debug\net6.0\finalproject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tyson\my-code-dir\finalproject\obj\Debug\net6.0\finalproject.AssemblyInfoInputs.cache
+C:\Users\tyson\my-code-dir\finalproject\obj\Debug\net6.0\finalproject.AssemblyInfo.cs
+C:\Users\tyson\my-code-dir\finalproject\obj\Debug\net6.0\finalproject.csproj.CoreCompileInputs.cache
+C:\Users\tyson\my-code-dir\finalproject\bin\Debug\net6.0\finalproject.exe
+C:\Users\tyson\my-code-dir\finalproject\bin\Debug\net6.0\finalproject.deps.json
+C:\Users\tyson\my-code-dir\finalproject\bin\Debug\net6.0\finalproject.runtimeconfig.json
+C:\Users\tyson\my-code-dir\finalproject\bin\Debug\net6.0\finalproject.dll
+C:\Users\tyson\my-code-dir\finalproject\bin\Debug\net6.0\finalproject.pdb
+C:\Users\tyson\my-code-dir\finalproject\obj\Debug\net6.0\finalproject.dll
+C:\Users\tyson\my-code-dir\finalproject\obj\Debug\net6.0\refint\finalproject.dll
+C:\Users\tyson\my-code-dir\finalproject\obj\Debug\net6.0\finalproject.pdb
+C:\Users\tyson\my-code-dir\finalproject\obj\Debug\net6.0\finalproject.genruntimeconfig.cache
+C:\Users\tyson\my-code-dir\finalproject\obj\Debug\net6.0\ref\finalproject.dll
