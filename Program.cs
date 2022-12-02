@@ -1,69 +1,31 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Security.Cryptography.X509Certificates;
+﻿using finalproject;
 
-int player1 = 2500;
-int player2 = 2500;
-int player3 = 2500;
-int computer = 2500;
-(string suit,string power)[] deck = new (string suit, string power)[52];
-string [] suits = new string[] {"hearts", "spades", "diamonds","clubs"};
-string [] powers = new string[]{"ace","2","3","4","5","6","7","8","9","10","jack","Queen", "King"};
-void makedeck()
+Console.SetWindowSize(65,40);
+Console.BufferWidth=65;
+Console.BufferHeight = 40;
+Console.Title = "Poker Game";
+DealCards dc= new DealCards();
+bool quit = false;
+while(!quit)
 {
-    int counter = 0;
-    foreach(string suit in suits)
+    dc.Deal();
+
+    char selection = ' ';
+    while(!selection.Equals('Y')&& !selection.Equals('N'))
     {
-        foreach(string power in powers)
-        {
-            deck[counter]= (suit, power);
-    counter++;  
+        Console.WriteLine("Do you want to play agian? Y/N");
+        selection = Convert.ToChar(Console.ReadLine().ToUpper());
+        if( selection.Equals('Y')){
+            quit = false;
         }
-    }
-    
-} makedeck();
-void shufflecards()
-{
-    (string suit,string power)[] deck1 = new (string suit, string power)[26];
-    (string suit,string power)[] deck2 = new (string suit, string power)[26];
-    for(int x = 0;x<deck.Length; x++) {
-    if (x < deck.Length/2)
+        else if (selection.Equals('N'))
         {
-            deck1[x] = deck[x];
-
-        }
-    else {deck2[x/2+1] = deck[x];
-        
-        }
-    
-   }
-    int counter = 0;
-    for(int x = 0;x<deck1.Length;x++) {
-        if (x % 2 == 0)
-        {
-            deck[x]=deck1[x/2];
+            quit = true;
 
         }
         else
-        {if(x ==1) { deck[x] = deck2[(0)];}
-            else
-            {
-
-            deck[x] = deck2[(x+1)/2];
-}
-        }
-}}
-shufflecards();
-foreach((string,string)card in deck)
-{
-    Console.WriteLine(card);
+        Console.WriteLine("Invalid selection. Try again");
+    }
 }
 
 Console.ReadKey();
-
-
-
-
-
-
-
-
